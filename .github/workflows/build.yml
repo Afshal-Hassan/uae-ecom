@@ -18,16 +18,3 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # Needed to get PR information, if any
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
-
-  Deepcode-Build:
-    name: Deepcode AI
-    runs-on: ubuntu-latest
-
-    steps:
-    - name: Checkout
-      uses: actions/checkout@v2
-
-    - name: DeepCode analysis
-      uses: georgismitev/deepcode-code-scanning-analysis@master
-      env:
-        DEEPCODE_TOKEN: ${{ secrets.DEEPCODE_TOKEN }}
