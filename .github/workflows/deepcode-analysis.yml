@@ -1,13 +1,12 @@
-name: A DeepCode analysis
+name: DeepCode analysis
 
 on:
-  # Trigger the workflow on push or pull request, but only for the master branch
   push:
     branches:
-      - master
+      - main
   pull_request:
     branches:
-      - master
+      - main
 
 jobs:
   Deepcode-Build:
