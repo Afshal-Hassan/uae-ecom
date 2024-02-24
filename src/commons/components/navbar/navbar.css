@@ -42,7 +42,7 @@
 #navbar div:nth-child(2) .title {
     flex-grow: 1;
     cursor: pointer;
-    font-weight: 600;
+    font-weight: 700;
     font-size: 0.8rem;
     margin-left: 20px;
     font-style: normal;
@@ -54,6 +54,7 @@
 
 #navbar div:nth-child(2) .title:last-child {
     color: white;
+    font-weight: 600;
     padding: 12px 16px;
     border-radius: 8px;
     background: black;

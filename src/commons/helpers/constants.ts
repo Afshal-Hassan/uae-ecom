@@ -1,4 +1,4 @@
-import { NavbarTitle } from "./interfaces";
+import { NavbarTitle } from "./internal-models";
 
 export const NAVBAR_TITLES: NavbarTitle[] = [
     {
