@@ -1,7 +1,7 @@
 import "./hero.css";
 import React from 'react';
-import MainHeroImage from "../../../../assets/hero.svg";
 import { Layout, Typography } from "antd";
+import MainHeroImage from "../../../../assets/hero.svg";
 import HeroImage from "../../../../assets/vector 1.svg";
 
 const { Title } = Typography;

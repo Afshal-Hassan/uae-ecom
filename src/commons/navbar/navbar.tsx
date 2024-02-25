@@ -1,10 +1,11 @@
 import "./navbar.css";
 import React from "react";
 import "./navbar-mobile.css";
+import useDeviceWidth from "../../helpers/hooks";
 import { Layout, Typography } from "antd";
-import { NAVBAR_TITLES } from "../../helpers";
-import FashionImage from "../../../assets/vector.png";
-import useDeviceWidth from "../../hooks/use-device-width";
+import { NAVBAR_TITLES } from "./constants";
+import FashionImage from "../../assets/vector.png";
+
 
 const { Title } = Typography;
 

@@ -1,6 +1,6 @@
-import { NavbarTitle } from "./internal-models";
+import { NavbarTitle } from "./models";
 
-export const NAVBAR_TITLES: NavbarTitle[] = [
+export const NAVBAR_TITLES = [
     {
         name: "Catalogue",
         link: "/"
@@ -21,4 +21,4 @@ export const NAVBAR_TITLES: NavbarTitle[] = [
         name: "Sign up",
         link: "/"
     }
-] 
+] satisfies NavbarTitle[];

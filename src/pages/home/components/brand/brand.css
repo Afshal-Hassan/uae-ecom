@@ -1,0 +1,13 @@
+#brand {
+    margin-top: 100px;
+    padding: 30px 100px;
+    margin-bottom: 50px;
+    background: #EBD96B;
+}
+
+#brand-img {
+    width: 100px;
+    aspect-ratio: 4/2;
+    margin-left: 150px;
+    mix-blend-mode: color-burn;
+}
