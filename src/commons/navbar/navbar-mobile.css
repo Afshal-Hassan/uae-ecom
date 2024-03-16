@@ -1,0 +1,19 @@
+@media (max-width: 500px) {
+
+    #navbar img {
+        width: 12%;
+        aspect-ratio: 3/2;
+        object-fit: contain;
+        mix-blend-mode: color-burn;
+    }
+
+    #navbar .title {
+        font-size: 1.5rem;
+    }
+
+    #navbar div:first-child {
+        display: flex;
+        margin-left: 50px;
+        flex-direction: row;
+    }
+}

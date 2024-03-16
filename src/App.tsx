@@ -1,24 +1,19 @@
-import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import React from 'react';
+import Navbar from './commons/navbar/navbar';
+import Hero from './pages/home/components/hero/hero';
+import Brand from './pages/home/components/brand/brand';
+import NewArrivals from './pages/home/components/new-arrivals/new-arrivals';
+import Footer from './commons/footer/footer';
 
-function App() {
+const App: React.FC = () => {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Navbar />
+      <Hero />
+      <Brand />
+      <NewArrivals />
+      <Footer />
     </div>
   );
 }
