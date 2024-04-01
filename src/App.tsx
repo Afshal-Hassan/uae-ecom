@@ -1,19 +1,13 @@
 import './App.css';
 import React from 'react';
-import Navbar from './commons/navbar/navbar';
-import Hero from './pages/home/components/hero/hero';
-import Brand from './pages/home/components/brand/brand';
-import NewArrivals from './pages/home/components/new-arrivals/new-arrivals';
-import Footer from './commons/footer/footer';
+import Home from './pages/home';
+import EcomBar from './commons/ecom-bar/ecom-bar';
 
 const App: React.FC = () => {
   return (
     <div className="App">
-      <Navbar />
-      <Hero />
-      <Brand />
-      <NewArrivals />
-      <Footer />
+      {/* <Home /> */}
+      <EcomBar />
     </div>
   );
 }
